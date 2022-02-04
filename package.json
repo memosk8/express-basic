@@ -1,0 +1,22 @@
+{
+  "name": "template-engines",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server.js"
+  },
+  "keywords": [
+    "express",
+    "jade"
+  ],
+  "author": "memosk8",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jade": "^0.29.0",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
